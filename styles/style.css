@@ -107,7 +107,7 @@ header {
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
-.pillar-title{
+.pillar-title {
     font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.80);
@@ -115,11 +115,101 @@ header {
     margin: 30px 0 10px 0;
 }
 
-.pillar-description{
+.pillar-description {
     color: rgba(14, 14, 14, 0.70);
+    background: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pillar img {
     background: none;
 }
 
-.pillar img{
+/* vision styles */
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+}
+
+.section-description {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.vision {
+    margin: 80px 160px;
+}
+
+.vision-1 {
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+    padding: 32px;
+}
+
+.vision-2 {
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+    padding: 32px;
+}
+
+.vision-3 {
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+    padding: 32px;
+}
+
+.vision-container img {
     background: none;
+}
+
+.vision-title {
+    background: none;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 24px 0 12px 0;
+}
+
+.vision-description {
+    background: none;
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.vision-1 button {
+    border-radius: 8px;
+    background: #5490F5;
+    border: none;
+    font-weight: 600;
+    color: #FFF;
+    padding: 11px 20px;
+}
+
+.vision-2 button {
+    border-radius: 8px;
+    background: #09A15C;
+    border: none;
+    font-weight: 600;
+    color: #FFF;
+    padding: 11px 20px;
+}
+
+.vision-3 button {
+    border-radius: 8px;
+    background: #FFC239;
+    border: none;
+    font-weight: 600;
+    color: #FFF;
+    padding: 11px 20px;
 }
