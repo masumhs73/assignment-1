@@ -220,8 +220,8 @@
     padding: 48px 24px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
-    background-position: top 25px left 25px ;
-    
+    background-position: top 25px left 25px;
+
 }
 
 .speech-description {
@@ -249,4 +249,42 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+
+/* news styles */
+.recent-news {
+    margin: 0 160px;
+}
+
+.recent-news-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.recent-news-description {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.news {
+    display: flex;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.news-container {
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.news image-1 {
+    width: 50%;
+    border-radius: 24px;
+    /* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
 }
