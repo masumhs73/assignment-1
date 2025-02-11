@@ -406,7 +406,7 @@ form {
     background: none;
 }
 
-.newsletter .section-title{
+.newsletter .section-title {
     background: none;
 }
 
@@ -430,4 +430,40 @@ form button {
     color: #FFF;
     font-size: 16px;
     margin-left: -5px;
+}
+
+/* footer styles*/
+
+footer{
+text-align: center;
+padding: 50px 180px;
+background-color: #FFF;
+}
+
+.footer-title {
+    text-align: center;
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    background: #FFF;
+}
+
+.icons{
+    margin-top: 32px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.icons img{
+    background: none;
+}
+
+hr{
+    background: rgba(118, 116, 116, 0.1);
+        
+    
 }
