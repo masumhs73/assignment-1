@@ -10,7 +10,7 @@
 
 .nav-bar {
     display: flex;
-    padding: 24px 160px;
+    padding: 24px 100px;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 45px;
@@ -35,11 +35,11 @@
 
 .banner {
     display: flex;
-    padding: 80px 100px;
-    margin: 0 160px;
+    padding:50px 70px;
+    margin: 0 100px;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 60px;
     border-radius: 24px;
     background: none;
     background-color: #C6E4D6;
@@ -50,7 +50,7 @@
 }
 
 .banner-sub-title {
-    font-size: 24px;
+    font-size: 22px;
     font-size: 500;
     color: rgba(14, 14, 14, 0.50);
     background: none;
@@ -59,14 +59,14 @@
 
 
 .banner-title {
-    font-size: 56px;
+    font-size: 42px;
     font-weight: 700;
     margin-bottom: 24px;
     background: none;
 }
 
 .btn-primary {
-    padding: 17px 34px;
+    padding: 13px 26px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
@@ -86,7 +86,7 @@
 }
 
 .section-title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     color: #0E0E0E;
     margin-bottom: 35px;
@@ -148,6 +148,7 @@
     border: 0px solid #5490F5;
     background: rgba(84, 144, 245, 0.20);
     padding: 32px;
+    width: 700px;
 }
 
 .vision-2 {
@@ -155,6 +156,7 @@
     border: 0px solid #09A15C;
     background: #C6E4D6;
     padding: 32px;
+    width: 700px;
 }
 
 .vision-3 {
@@ -162,6 +164,7 @@
     border: 0px solid #FFC239;
     background: #F7EBCF;
     padding: 32px;
+    width: 700px;
 }
 
 .vision-container img {
@@ -254,7 +257,7 @@
 
 /* news styles */
 .recent-news {
-    margin: 0 160px;
+    margin: 0 100px;
 }
 
 .recent-news-title {
@@ -288,7 +291,7 @@
 
 .recent-news-container {
     border-radius: 24px;
-    padding: 48px;
+    padding: 40px;
 }
 
 .news-container {
