@@ -7,6 +7,14 @@
 }
 
 /* common styles */
+
+.section-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 35px;
+}
+
 .description {
     background: none;
     color: rgba(14, 14, 14, 0.70);
@@ -45,11 +53,11 @@
 
 .banner {
     display: flex;
-    padding: 50px 70px;
+    padding: 60px 40px;
     margin: 0 100px;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
     border-radius: 24px;
     background: none;
     background-color: #C6E4D6;
@@ -69,7 +77,7 @@
 
 
 .banner-title {
-    font-size: 42px;
+    font-size: 45px;
     font-weight: 700;
     margin-bottom: 24px;
     background: none;
@@ -87,6 +95,7 @@
 
 .banner img {
     background: none;
+    width: 1280px;
 }
 
 /* pillars section styles */
@@ -95,12 +104,7 @@
     margin: 80px 100px;
 }
 
-.section-title {
-    font-size: 32px;
-    font-weight: 700;
-    color: #0E0E0E;
-    margin-bottom: 35px;
-}
+
 
 .pillars-container {
     display: flex;
@@ -329,7 +333,7 @@ table.center {
 
 .news-title {
     background: none;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.80)
 }
